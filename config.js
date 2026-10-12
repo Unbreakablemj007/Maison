@@ -6,6 +6,9 @@ window.SITE_CONFIG = {
   // Default language when a visitor first opens the site: "en" or "ar"
   defaultLanguage: "en",
 
+  // Look of the site: "classic" (warm blush), "sage" (charcoal + sage green) or "sea" (charcoal + sea blue)
+  theme: "classic",
+
   instagram: "https://www.instagram.com/explore/locations/101715265679227/maison-de-visage/",
   facebook: "https://www.facebook.com/p/Maison-De-Visage-61550584058348/",
 

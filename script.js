@@ -259,5 +259,7 @@
   });
 
   var params = new URLSearchParams(window.location.search);
+  var theme = params.get("theme") || config.theme;
+  if (theme && theme !== "classic") document.documentElement.setAttribute("data-theme", theme);
   setLanguage(params.get("lang") || storageGet("mdv-lang") || config.defaultLanguage || "en");
 })();
