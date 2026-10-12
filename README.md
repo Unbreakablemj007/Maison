@@ -22,6 +22,8 @@ Plain HTML, CSS and JavaScript — no build step, nothing to install.
 Open `config.js` and fill in your phone, WhatsApp number, email, address and opening hours.
 Anything left empty is hidden on the page.
 
+The look is set by `theme`: `"sage"` (current), `"sea"` or `"classic"`. Add `?theme=sea` to the URL to try one without changing the file.
+
 - If `whatsapp` is set, the booking form sends the request as a WhatsApp message and a WhatsApp button appears.
 - Otherwise, if `email` is set, it opens an email.
 - Otherwise it copies the request and opens Instagram so the client can message you there.
