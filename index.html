@@ -3,17 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Maison De Visage</title>
-  <meta name="description" content="Maison De Visage — facial and skincare studio. Personalised treatments for healthy, radiant skin.">
+  <title>Maison De Visage | Dentistry, Skin Care &amp; Facial Aesthetics in Beirut</title>
+  <meta name="description" content="Maison De Visage, Ain Mreisse, Beirut: dentistry, orthodontics, dermatology, skin care and facial aesthetics under one roof.">
   <meta property="og:title" content="Maison De Visage">
-  <meta property="og:description" content="Facial and skincare studio. Personalised treatments for healthy, radiant skin.">
+  <meta property="og:description" content="Dentistry, skin care, dermatology and facial aesthetics in Ain Mreisse, Beirut.">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/clinic.jpg">
   <meta name="theme-color" content="#f7f1eb">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Maison De Visage",
+    "description": "Dentistry, orthodontics, dermatology, skin care and facial aesthetics.",
+    "image": "assets/clinic.jpg",
+    "telephone": "+961 76 993 395",
+    "email": "info@maisondevisage.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Phoenicia Street, Ain Mreisse",
+      "addressLocality": "Beirut",
+      "addressCountry": "LB"
+    },
+    "medicalSpecialty": ["Dentistry", "Dermatology"],
+    "sameAs": [
+      "https://www.facebook.com/p/Maison-De-Visage-61550584058348/",
+      "https://www.instagram.com/explore/locations/101715265679227/maison-de-visage/"
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
@@ -28,8 +51,7 @@
       <nav class="nav" id="nav" aria-label="Main">
         <a href="#about" data-i18n="nav.about">About</a>
         <a href="#services" data-i18n="nav.services">Services</a>
-        <a href="#experience" data-i18n="nav.experience">Experience</a>
-        <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+        <a href="#team" data-i18n="nav.team">Our team</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
 
@@ -47,15 +69,22 @@
     <!-- Hero -->
     <section class="hero">
       <div class="container hero-inner">
-        <p class="eyebrow" data-i18n="hero.eyebrow">Facial &amp; Skincare Studio</p>
-        <h1 class="hero-title">Maison <em>De</em> Visage</h1>
-        <p class="hero-lead" data-i18n="hero.lead">A calm house for your skin. Personalised facials and treatments that bring out your natural glow.</p>
-        <div class="hero-cta">
-          <a class="btn" href="#contact" data-i18n="cta.book">Book now</a>
-          <a class="btn btn-ghost" href="#services" data-i18n="cta.services">Explore services</a>
+        <div class="hero-text">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Dentistry · Skin Care · Dermatology · Facial Aesthetics</p>
+          <h1 class="hero-title">Maison <em>De</em> Visage</h1>
+          <p class="hero-lead" data-i18n="hero.lead">Care for your smile and your skin under one roof, in a calm, light-filled clinic in Ain Mreisse, Beirut.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#contact" data-i18n="cta.book">Book now</a>
+            <a class="btn btn-ghost" href="#services" data-i18n="cta.services">Explore services</a>
+          </div>
         </div>
+        <figure class="hero-photo">
+          <picture>
+            <source srcset="assets/clinic.webp" type="image/webp">
+            <img src="assets/clinic.jpg" width="1200" height="1249" alt="A treatment room at Maison De Visage with a sea view" data-i18n-alt="hero.photoAlt">
+          </picture>
+        </figure>
       </div>
-      <div class="hero-ornament" aria-hidden="true"></div>
     </section>
 
     <!-- About -->
@@ -66,10 +95,17 @@
           <div class="arch arch-2"></div>
         </div>
         <div class="reveal">
-          <p class="eyebrow" data-i18n="about.eyebrow">Our House</p>
-          <h2 data-i18n="about.title">Where skin care becomes a ritual</h2>
-          <p data-i18n="about.p1">At Maison De Visage every visit begins with listening. We look closely at your skin, talk about your routine and goals, and design a treatment that is made for you — never one-size-fits-all.</p>
-          <p data-i18n="about.p2">Our studio is a quiet escape from the day: soft light, gentle hands, and carefully chosen products, so you leave feeling as good as your skin looks.</p>
+          <p class="eyebrow" data-i18n="about.eyebrow">Our house</p>
+          <h2 data-i18n="about.title">One house for your smile and your skin</h2>
+          <p data-i18n="about.p1">Maison De Visage brings dentistry, orthodontics, dermatology, skin care and facial aesthetics together in one place. Our specialists work side by side, so your face is looked after as a whole.</p>
+          <p data-i18n="about.p2">Every visit starts with a consultation. We listen, examine, and explain your options clearly before any treatment begins.</p>
+          <ul class="pill-list">
+            <li data-i18n="about.pill1">Dentistry</li>
+            <li data-i18n="about.pill2">Orthodontics</li>
+            <li data-i18n="about.pill3">Dermatology</li>
+            <li data-i18n="about.pill4">Skin care</li>
+            <li data-i18n="about.pill5">Facial aesthetics</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -78,92 +114,96 @@
     <section class="section section-tint" id="services">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow" data-i18n="services.eyebrow">Treatments</p>
+          <p class="eyebrow" data-i18n="services.eyebrow">What we do</p>
           <h2 data-i18n="services.title">Our services</h2>
-          <p class="muted" data-i18n="services.lead">Ask us which treatment suits your skin — we're happy to advise.</p>
+          <p class="muted" data-i18n="services.lead">Not sure what you need? Book a consultation and we'll guide you.</p>
         </div>
         <div class="cards">
           <article class="card reveal">
             <div class="card-icon" aria-hidden="true">✦</div>
-            <h3 data-i18n="s1.title">Signature Facial</h3>
-            <p data-i18n="s1.text">Deep cleansing, gentle exfoliation, extraction and a tailored mask to leave skin fresh, clear and luminous.</p>
-          </article>
-          <article class="card reveal">
-            <div class="card-icon" aria-hidden="true">❋</div>
-            <h3 data-i18n="s2.title">Hydrating Treatment</h3>
-            <p data-i18n="s2.text">An intensive moisture boost for dull or dehydrated skin, restoring softness and a healthy bounce.</p>
-          </article>
-          <article class="card reveal">
-            <div class="card-icon" aria-hidden="true">◈</div>
-            <h3 data-i18n="s3.title">Deep Cleansing</h3>
-            <p data-i18n="s3.text">Targets congestion and clogged pores to purify the skin and refine its texture.</p>
+            <h3 data-i18n="s1.title">Restorative Dentistry</h3>
+            <p data-i18n="s1.text">Fillings, crowns and bridges that restore the comfort, strength and function of your teeth.</p>
           </article>
           <article class="card reveal">
             <div class="card-icon" aria-hidden="true">✧</div>
-            <h3 data-i18n="s4.title">Glow &amp; Brightening</h3>
-            <p data-i18n="s4.text">Evens tone and revives radiance — perfect before an event or simply as a treat.</p>
+            <h3 data-i18n="s2.title">Aesthetic Dentistry</h3>
+            <p data-i18n="s2.text">Whitening, veneers and smile design for a natural, confident smile.</p>
           </article>
           <article class="card reveal">
-            <div class="card-icon" aria-hidden="true">❖</div>
-            <h3 data-i18n="s5.title">Anti-Ageing Care</h3>
-            <p data-i18n="s5.text">Firming, lifting care that supports elasticity and softens the look of fine lines.</p>
+            <div class="card-icon" aria-hidden="true">◈</div>
+            <h3 data-i18n="s3.title">Orthodontics</h3>
+            <p data-i18n="s3.text">Braces and aligners for children and adults, plus dentofacial orthopedics for a balanced bite.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">❋</div>
+            <h3 data-i18n="s4.title">Dermatology</h3>
+            <p data-i18n="s4.text">Assessment and treatment of skin concerns such as acne, pigmentation and sensitivity.</p>
           </article>
           <article class="card reveal">
             <div class="card-icon" aria-hidden="true">✿</div>
-            <h3 data-i18n="s6.title">Skin Consultation</h3>
-            <p data-i18n="s6.text">A one-to-one skin analysis with a personal home-care routine you can follow every day.</p>
+            <h3 data-i18n="s5.title">Skin Care &amp; Facials</h3>
+            <p data-i18n="s5.text">Professional facials and skin treatments using advanced devices and medical-grade products.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">❖</div>
+            <h3 data-i18n="s6.title">Facial Aesthetics</h3>
+            <p data-i18n="s6.text">Non-surgical treatments that refresh and harmonise your features while keeping a natural look.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="team.eyebrow">Our specialists</p>
+          <h2 data-i18n="team.title">Meet the team</h2>
+        </div>
+        <div class="team">
+          <article class="doctor reveal">
+            <div class="avatar" aria-hidden="true">HW</div>
+            <div>
+              <h3 data-i18n="team.1.name">Dr. Hadi Wajih</h3>
+              <p class="doctor-role" data-i18n="team.1.role">Restorative &amp; Aesthetic Dentistry</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <div class="avatar" aria-hidden="true">TS</div>
+            <div>
+              <h3 data-i18n="team.2.name">Dr. Tatiana Saliba</h3>
+              <p class="doctor-role" data-i18n="team.2.role">Orthodontist &amp; Dentofacial Orthopedist</p>
+              <p class="muted doctor-note" data-i18n="team.2.note">Graduate of USJ, Beirut</p>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
     <!-- Experience -->
-    <section class="section" id="experience">
+    <section class="section section-tint" id="experience">
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow" data-i18n="exp.eyebrow">Your visit</p>
-          <h2 data-i18n="exp.title">The Maison experience</h2>
+          <h2 data-i18n="exp.title">How it works</h2>
         </div>
         <ol class="steps">
           <li class="reveal">
             <span class="step-num">01</span>
             <h3 data-i18n="exp.1.title">Consult</h3>
-            <p data-i18n="exp.1.text">We analyse your skin and listen to what you want to achieve.</p>
+            <p data-i18n="exp.1.text">We examine, listen to your goals and answer your questions.</p>
           </li>
           <li class="reveal">
             <span class="step-num">02</span>
-            <h3 data-i18n="exp.2.title">Treat</h3>
-            <p data-i18n="exp.2.text">A personalised treatment with professional, skin-friendly products.</p>
+            <h3 data-i18n="exp.2.title">Plan</h3>
+            <p data-i18n="exp.2.text">You receive a clear, personal treatment plan.</p>
           </li>
           <li class="reveal">
             <span class="step-num">03</span>
-            <h3 data-i18n="exp.3.title">Glow</h3>
-            <p data-i18n="exp.3.text">Leave with radiant skin and simple advice to keep it that way.</p>
+            <h3 data-i18n="exp.3.title">Care</h3>
+            <p data-i18n="exp.3.text">Treatment in a calm setting, with follow-up and advice for home.</p>
           </li>
         </ol>
-      </div>
-    </section>
-
-    <!-- Gallery -->
-    <section class="section section-tint" id="gallery">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow" data-i18n="gallery.eyebrow">Moments</p>
-          <h2 data-i18n="gallery.title">From our studio</h2>
-          <p class="muted" data-i18n="gallery.lead">See our latest work and results on Instagram and Facebook.</p>
-        </div>
-        <!-- Replace the tiles below with real photos: <img src="assets/gallery/1.jpg" alt="..."> -->
-        <div class="gallery">
-          <div class="tile tile-1 reveal"></div>
-          <div class="tile tile-2 reveal"></div>
-          <div class="tile tile-3 reveal"></div>
-          <div class="tile tile-4 reveal"></div>
-          <div class="tile tile-5 reveal"></div>
-        </div>
-        <div class="social-row reveal">
-          <a class="btn btn-ghost" data-link="instagram" href="#" target="_blank" rel="noopener">Instagram</a>
-          <a class="btn btn-ghost" data-link="facebook" href="#" target="_blank" rel="noopener">Facebook</a>
-        </div>
       </div>
     </section>
 
@@ -173,7 +213,7 @@
         <div class="reveal">
           <p class="eyebrow" data-i18n="contact.eyebrow">Visit us</p>
           <h2 data-i18n="contact.title">Book your appointment</h2>
-          <p class="muted" data-i18n="contact.lead">Send us a message and we'll get back to you to confirm your time.</p>
+          <p class="muted" data-i18n="contact.lead">Send us a request and we'll get back to you to confirm a time.</p>
 
           <ul class="info-list">
             <li data-field="address" hidden>
@@ -212,14 +252,14 @@
             <input id="phone" name="phone" type="tel" autocomplete="tel" dir="ltr" required>
           </div>
           <div class="field">
-            <label for="service" data-i18n="form.service">Treatment</label>
+            <label for="service" data-i18n="form.service">Service</label>
             <select id="service" name="service">
-              <option value="s1.title" data-i18n="s1.title">Signature Facial</option>
-              <option value="s2.title" data-i18n="s2.title">Hydrating Treatment</option>
-              <option value="s3.title" data-i18n="s3.title">Deep Cleansing</option>
-              <option value="s4.title" data-i18n="s4.title">Glow &amp; Brightening</option>
-              <option value="s5.title" data-i18n="s5.title">Anti-Ageing Care</option>
-              <option value="s6.title" data-i18n="s6.title">Skin Consultation</option>
+              <option value="form.opt.consult" data-i18n="form.opt.consult">Consultation (not sure yet)</option>
+              <option value="form.opt.dental" data-i18n="form.opt.dental">Dentistry</option>
+              <option value="s3.title" data-i18n="s3.title">Orthodontics</option>
+              <option value="s4.title" data-i18n="s4.title">Dermatology</option>
+              <option value="s5.title" data-i18n="s5.title">Skin Care &amp; Facials</option>
+              <option value="s6.title" data-i18n="s6.title">Facial Aesthetics</option>
             </select>
           </div>
           <div class="field">
@@ -233,6 +273,15 @@
           <button class="btn btn-block" type="submit" data-i18n="form.submit">Send request</button>
           <p class="form-note muted" id="formNote" role="status" aria-live="polite"></p>
         </form>
+      </div>
+
+      <div class="container map-wrap reveal">
+        <iframe
+          class="map"
+          title="Map: Maison De Visage, Ain Mreisse, Beirut"
+          src="https://maps.google.com/maps?q=Phoenicia%20Street%2C%20Ain%20Mreisse%2C%20Beirut%2C%20Lebanon&z=16&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
   </main>

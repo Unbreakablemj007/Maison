@@ -1,6 +1,6 @@
 # Maison De Visage — website
 
-A bilingual (English / العربية) single-page website for **Maison De Visage**, a facial & skincare studio.
+A bilingual (English / العربية) single-page website for **Maison De Visage**, a dentistry, skin care, dermatology and facial aesthetics clinic in Ain Mreisse, Beirut.
 
 - Instagram: https://www.instagram.com/explore/locations/101715265679227/maison-de-visage/
 - Facebook: https://www.facebook.com/p/Maison-De-Visage-61550584058348/
@@ -26,17 +26,13 @@ Anything left empty is hidden on the page.
 - Otherwise, if `email` is set, it opens an email.
 - Otherwise it copies the request and opens Instagram so the client can message you there.
 
-## 2. Add your photos
+## 2. Photos
 
-Put photos in `assets/gallery/` and replace the empty tiles in the **Gallery** section of `index.html`, for example:
+The clinic photo is `assets/clinic.jpg` (with a smaller `assets/clinic.webp`). To change it, replace both files and keep the same names.
 
-```html
-<div class="tile tile-1 reveal"><img src="assets/gallery/1.jpg" alt="Facial treatment"></div>
-```
+## 3. Edit services and team
 
-## 3. Edit services
-
-The six services are in `index.html` (English) and `script.js` (keys `s1.title` … `s6.text`, Arabic).
+Services and doctors are in `index.html` (English) and `script.js` (Arabic, keys `s1.title` … `s6.text` and `team.*`).
 Change the English and Arabic text together.
 
 ## Preview locally
